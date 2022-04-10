@@ -1,0 +1,45 @@
+body{
+    /* background-image: url("Tulips.jpg"); */
+    /* background-repeat: no-repeat; */
+    border: 10px solid blue;
+    animation-name: shivam;
+    animation-duration: 16s;
+
+    
+    
+}
+h1{
+    /* background-image: url("Tulip.jpg"); */
+height: 44%;
+width: 100%;
+}
+h2{
+    border: 10px solid grey;
+    background-color: yellow;
+    animation-name:ram ;
+    animation-duration: 8s;
+}
+@keyframes shivam
+{
+    0% {background-color: red;
+    border-color: bisque;}
+    25%{background-color: yellowgreen;
+    border-color: black;}
+    50%{ background-color: grey;}
+    100%{background-color: blue;}
+}
+@keyframes gulshan
+{
+    0%{background-color: blanchedalmond;}
+    100%{background-color: blueviolet;}
+}
+@keyframes ram
+{
+    0%{background-color:blue ;
+    border-color: yellow;
+color: brown;}
+    50%{background-color: black;
+    border-color: white;
+color: blueviolet;}
+    100%{background-color: blueviolet;}
+}
